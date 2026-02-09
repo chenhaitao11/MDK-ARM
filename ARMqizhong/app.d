@@ -39,10 +39,8 @@ armqizhong\app.o: ../Core/Inc/main.h
 armqizhong\app.o: ..\bsp\oled.h
 armqizhong\app.o: ..\bsp\max30100.h
 armqizhong\app.o: ..\bsp\ds18b20.h
-armqizhong\app.o: E:\keil536\ARM\ARMCC\Bin\..\include\stdio.h
 armqizhong\app.o: ..\bsp\guangzhao.h
 armqizhong\app.o: ..\bsp\ws2812_effects.h
 armqizhong\app.o: ..\bsp\WS2812B.h
 armqizhong\app.o: E:\keil536\ARM\ARMCC\Bin\..\include\Stdbool.h
 armqizhong\app.o: E:\keil536\ARM\ARMCC\Bin\..\include\string.h
-armqizhong\app.o: E:\keil536\ARM\ARMCC\Bin\..\include\math.h

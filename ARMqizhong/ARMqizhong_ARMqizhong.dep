@@ -1,7 +1,7 @@
 Dependencies for Project 'ARMqizhong', Target 'ARMqizhong': (DO NOT MODIFY !)
 CompilerVersion: 5060960::V5.06 update 7 (build 960)::.\ARMCC
 F (startup_stm32f103xb.s)(0x6948F749)(--cpu Cortex-M3 -g --apcs=interwork --pd "__MICROLIB SETA 1"-I.\RTE\_ARMqizhong-IC:\Users\ASUS\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\ASUS\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include--pd "__UVISION_VERSION SETA 543" --pd "STM32F10X_MD SETA 1" --pd "_RTE_ SETA 1"--list startup_stm32f103xb.lst --xref -o armqizhong\startup_stm32f103xb.o --depend armqizhong\startup_stm32f103xb.d)
-F (../Core/Src/main.c)(0x6936ACC0)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../bsp-I.\RTE\_ARMqizhong-IC:\Users\ASUS\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\ASUS\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="543" -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o armqizhong\main.o --omf_browse armqizhong\main.crf --depend armqizhong\main.d)
+F (../Core/Src/main.c)(0x69897A31)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../bsp-I.\RTE\_ARMqizhong-IC:\Users\ASUS\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\ASUS\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="543" -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o armqizhong\main.o --omf_browse armqizhong\main.crf --depend armqizhong\main.d)
 I (../Core/Inc/main.h)(0x690BFC78)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x68E7AE4D)
 I (../Core/Inc/stm32f1xx_hal_conf.h)(0x69229404)
@@ -41,10 +41,10 @@ I (../Core/Inc/usart.h)(0x690BFC77)
 I (../Core/Inc/gpio.h)(0x690BFC77)
 I (E:\keil536\ARM\ARMCC\include\stdio.h)(0x60252374)
 I (../bsp/oled.h)(0x690F33C0)
-I (../bsp/beep.h)(0x6919C521)
+I (../bsp/beep.h)(0x698975BC)
 I (../bsp/app.h)(0x6944B69A)
-I (../bsp/data_protocol.h)(0x6944B672)
-F (../Core/Src/gpio.c)(0x69229B6D)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../bsp-I.\RTE\_ARMqizhong-IC:\Users\ASUS\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\ASUS\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="543" -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o armqizhong\gpio.o --omf_browse armqizhong\gpio.crf --depend armqizhong\gpio.d)
+I (../bsp/data_protocol.h)(0x69897562)
+F (../Core/Src/gpio.c)(0x69897A31)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../bsp-I.\RTE\_ARMqizhong-IC:\Users\ASUS\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\ASUS\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="543" -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o armqizhong\gpio.o --omf_browse armqizhong\gpio.crf --depend armqizhong\gpio.d)
 I (../Core/Inc/gpio.h)(0x690BFC77)
 I (../Core/Inc/main.h)(0x690BFC78)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x68E7AE4D)
@@ -78,7 +78,7 @@ I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x68E7AE4D)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x68E7AE4D)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x68E7AE4D)
 I (E:\keil536\ARM\ARMCC\include\stdio.h)(0x60252374)
-I (../bsp/beep.h)(0x6919C521)
+I (../bsp/beep.h)(0x698975BC)
 I (../bsp/oled.h)(0x690F33C0)
 F (../Core/Src/adc.c)(0x691C7B19)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../bsp-I.\RTE\_ARMqizhong-IC:\Users\ASUS\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\ASUS\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="543" -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o armqizhong\adc.o --omf_browse armqizhong\adc.crf --depend armqizhong\adc.d)
 I (../Core/Inc/adc.h)(0x691C7B19)
@@ -904,8 +904,8 @@ I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x68E7AE4D)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x68E7AE4D)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x68E7AE4D)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x68E7AE4D)
-F (..\bsp\beep.c)(0x690F3854)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../bsp-I.\RTE\_ARMqizhong-IC:\Users\ASUS\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\ASUS\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="543" -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o armqizhong\beep.o --omf_browse armqizhong\beep.crf --depend armqizhong\beep.d)
-I (..\bsp\beep.h)(0x6919C521)
+F (..\bsp\beep.c)(0x698975D9)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../bsp-I.\RTE\_ARMqizhong-IC:\Users\ASUS\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\ASUS\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="543" -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o armqizhong\beep.o --omf_browse armqizhong\beep.crf --depend armqizhong\beep.d)
+I (..\bsp\beep.h)(0x698975BC)
 I (../Core/Inc/gpio.h)(0x690BFC77)
 I (../Core/Inc/main.h)(0x690BFC78)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x68E7AE4D)
@@ -970,10 +970,10 @@ I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x68E7AE4D)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x68E7AE4D)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x68E7AE4D)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x68E7AE4D)
-F (..\bsp\app.c)(0x694D2AC0)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../bsp-I.\RTE\_ARMqizhong-IC:\Users\ASUS\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\ASUS\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="543" -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o armqizhong\app.o --omf_browse armqizhong\app.crf --depend armqizhong\app.d)
+F (..\bsp\app.c)(0x6989783F)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../bsp-I.\RTE\_ARMqizhong-IC:\Users\ASUS\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\ASUS\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="543" -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o armqizhong\app.o --omf_browse armqizhong\app.crf --depend armqizhong\app.d)
 I (..\bsp\app.h)(0x6944B69A)
 I (E:\keil536\ARM\ARMCC\include\stdint.h)(0x6025237E)
-I (..\bsp\data_protocol.h)(0x6944B672)
+I (..\bsp\data_protocol.h)(0x69897562)
 I (..\bsp\key.h)(0x690F3F71)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x68E7AE4D)
 I (../Core/Inc/stm32f1xx_hal_conf.h)(0x69229404)
@@ -1004,19 +1004,17 @@ I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x68E7AE4D)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x68E7AE4D)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x68E7AE4D)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x68E7AE4D)
-I (..\bsp\beep.h)(0x6919C521)
+I (..\bsp\beep.h)(0x698975BC)
 I (../Core/Inc/gpio.h)(0x690BFC77)
 I (../Core/Inc/main.h)(0x690BFC78)
 I (..\bsp\oled.h)(0x690F33C0)
 I (..\bsp\max30100.h)(0x6948F9D0)
 I (..\bsp\ds18b20.h)(0x6919B800)
-I (E:\keil536\ARM\ARMCC\include\stdio.h)(0x60252374)
 I (..\bsp\guangzhao.h)(0x691D81B7)
-I (..\bsp\ws2812_effects.h)(0x694901DF)
-I (..\bsp\WS2812B.h)(0x6936ADDC)
+I (..\bsp\ws2812_effects.h)(0x69897877)
+I (..\bsp\WS2812B.h)(0x698974FC)
 I (E:\keil536\ARM\ARMCC\include\Stdbool.h)(0x6025237C)
 I (E:\keil536\ARM\ARMCC\include\string.h)(0x6025237E)
-I (E:\keil536\ARM\ARMCC\include\math.h)(0x60252378)
 F (..\bsp\max30100.c)(0x6948FAB5)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../bsp-I.\RTE\_ARMqizhong-IC:\Users\ASUS\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\ASUS\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="543" -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o armqizhong\max30100.o --omf_browse armqizhong\max30100.crf --depend armqizhong\max30100.d)
 I (..\bsp\max30100.h)(0x6948F9D0)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x68E7AE4D)
@@ -1088,7 +1086,7 @@ I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x68E7AE4D)
 I (E:\keil536\ARM\ARMCC\include\stdio.h)(0x60252374)
 I (../Core/Inc/tim.h)(0x6936ACBF)
 I (../Core/Inc/main.h)(0x690BFC78)
-F (..\bsp\guangzhao.c)(0x694D28DC)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../bsp-I.\RTE\_ARMqizhong-IC:\Users\ASUS\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\ASUS\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="543" -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o armqizhong\guangzhao.o --omf_browse armqizhong\guangzhao.crf --depend armqizhong\guangzhao.d)
+F (..\bsp\guangzhao.c)(0x69897538)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../bsp-I.\RTE\_ARMqizhong-IC:\Users\ASUS\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\ASUS\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="543" -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o armqizhong\guangzhao.o --omf_browse armqizhong\guangzhao.crf --depend armqizhong\guangzhao.d)
 I (..\bsp\guangzhao.h)(0x691D81B7)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x68E7AE4D)
 I (../Core/Inc/stm32f1xx_hal_conf.h)(0x69229404)
@@ -1123,8 +1121,8 @@ I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x68E7AE4D)
 I (../Core/Inc/adc.h)(0x691C7B19)
 I (../Core/Inc/main.h)(0x690BFC78)
 I (../Core/Inc/dma.h)(0x691C7B19)
-F (..\bsp\ws2812b.c)(0x69490275)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../bsp-I.\RTE\_ARMqizhong-IC:\Users\ASUS\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\ASUS\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="543" -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o armqizhong\ws2812b.o --omf_browse armqizhong\ws2812b.crf --depend armqizhong\ws2812b.d)
-I (..\bsp\WS2812B.h)(0x6936ADDC)
+F (..\bsp\ws2812b.c)(0x698974E4)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../bsp-I.\RTE\_ARMqizhong-IC:\Users\ASUS\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\ASUS\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="543" -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o armqizhong\ws2812b.o --omf_browse armqizhong\ws2812b.crf --depend armqizhong\ws2812b.d)
+I (..\bsp\WS2812B.h)(0x698974FC)
 I (../Core/Inc/main.h)(0x690BFC78)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x68E7AE4D)
 I (../Core/Inc/stm32f1xx_hal_conf.h)(0x69229404)
@@ -1158,11 +1156,10 @@ I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x68E7AE4D)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x68E7AE4D)
 I (E:\keil536\ARM\ARMCC\include\Stdbool.h)(0x6025237C)
 I (E:\keil536\ARM\ARMCC\include\string.h)(0x6025237E)
-I (E:\keil536\ARM\ARMCC\include\math.h)(0x60252378)
 I (../Core/Inc/tim.h)(0x6936ACBF)
-F (..\bsp\ws2812_effects.c)(0x694D2831)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../bsp-I.\RTE\_ARMqizhong-IC:\Users\ASUS\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\ASUS\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="543" -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o armqizhong\ws2812_effects.o --omf_browse armqizhong\ws2812_effects.crf --depend armqizhong\ws2812_effects.d)
-I (..\bsp\ws2812_effects.h)(0x694901DF)
-I (..\bsp\WS2812B.h)(0x6936ADDC)
+F (..\bsp\ws2812_effects.c)(0x698978AE)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../bsp-I.\RTE\_ARMqizhong-IC:\Users\ASUS\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\ASUS\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="543" -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o armqizhong\ws2812_effects.o --omf_browse armqizhong\ws2812_effects.crf --depend armqizhong\ws2812_effects.d)
+I (..\bsp\ws2812_effects.h)(0x69897877)
+I (..\bsp\WS2812B.h)(0x698974FC)
 I (../Core/Inc/main.h)(0x690BFC78)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x68E7AE4D)
 I (../Core/Inc/stm32f1xx_hal_conf.h)(0x69229404)
@@ -1197,8 +1194,8 @@ I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x68E7AE4D)
 I (E:\keil536\ARM\ARMCC\include\Stdbool.h)(0x6025237C)
 I (E:\keil536\ARM\ARMCC\include\string.h)(0x6025237E)
 I (E:\keil536\ARM\ARMCC\include\math.h)(0x60252378)
-F (..\bsp\data_protocol.c)(0x6944B6DF)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../bsp-I.\RTE\_ARMqizhong-IC:\Users\ASUS\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\ASUS\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="543" -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o armqizhong\data_protocol.o --omf_browse armqizhong\data_protocol.crf --depend armqizhong\data_protocol.d)
-I (..\bsp\data_protocol.h)(0x6944B672)
+F (..\bsp\data_protocol.c)(0x69897598)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../bsp-I.\RTE\_ARMqizhong-IC:\Users\ASUS\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\ASUS\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="543" -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o armqizhong\data_protocol.o --omf_browse armqizhong\data_protocol.crf --depend armqizhong\data_protocol.d)
+I (..\bsp\data_protocol.h)(0x69897562)
 I (E:\keil536\ARM\ARMCC\include\stdint.h)(0x6025237E)
 I (..\bsp\max30100.h)(0x6948F9D0)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x68E7AE4D)
@@ -1230,9 +1227,7 @@ I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x68E7AE4D)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h)(0x68E7AE4D)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h)(0x68E7AE4D)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x68E7AE4D)
-I (..\bsp\ds18b20.h)(0x6919B800)
 I (..\bsp\guangzhao.h)(0x691D81B7)
 I (../Core/Inc/usart.h)(0x690BFC77)
 I (../Core/Inc/main.h)(0x690BFC78)
-I (E:\keil536\ARM\ARMCC\include\stdio.h)(0x60252374)
 I (E:\keil536\ARM\ARMCC\include\string.h)(0x6025237E)

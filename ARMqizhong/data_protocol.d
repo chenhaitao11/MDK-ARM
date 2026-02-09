@@ -32,9 +32,7 @@ armqizhong\data_protocol.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pw
 armqizhong\data_protocol.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h
 armqizhong\data_protocol.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h
 armqizhong\data_protocol.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h
-armqizhong\data_protocol.o: ..\bsp\ds18b20.h
 armqizhong\data_protocol.o: ..\bsp\guangzhao.h
 armqizhong\data_protocol.o: ../Core/Inc/usart.h
 armqizhong\data_protocol.o: ../Core/Inc/main.h
-armqizhong\data_protocol.o: E:\keil536\ARM\ARMCC\Bin\..\include\stdio.h
 armqizhong\data_protocol.o: E:\keil536\ARM\ARMCC\Bin\..\include\string.h

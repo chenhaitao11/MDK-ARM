@@ -34,5 +34,4 @@ armqizhong\ws2812b.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h
 armqizhong\ws2812b.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h
 armqizhong\ws2812b.o: E:\keil536\ARM\ARMCC\Bin\..\include\Stdbool.h
 armqizhong\ws2812b.o: E:\keil536\ARM\ARMCC\Bin\..\include\string.h
-armqizhong\ws2812b.o: E:\keil536\ARM\ARMCC\Bin\..\include\math.h
 armqizhong\ws2812b.o: ../Core/Inc/tim.h
