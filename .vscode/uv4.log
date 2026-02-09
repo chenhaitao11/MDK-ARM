@@ -1,8 +1,4 @@
 *** Using Compiler 'V5.06 update 7 (build 960)', folder: 'E:\keil536\ARM\ARMCC\Bin'
 Build target 'ARMqizhong'
-compiling main.c...
-linking...
-Program Size: Code=21060 RO-data=2160 RW-data=148 ZI-data=2828  
-FromELF: creating hex file...
 "ARMqizhong\ARMqizhong.axf" - 0 Error(s), 0 Warning(s).
-Build Time Elapsed:  00:00:02
+Build Time Elapsed:  00:00:00
