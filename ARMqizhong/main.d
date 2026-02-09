@@ -27,6 +27,7 @@ armqizhong\main.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h
 armqizhong\main.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h
 armqizhong\main.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h
 armqizhong\main.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h
+armqizhong\main.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_iwdg.h
 armqizhong\main.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h
 armqizhong\main.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h
 armqizhong\main.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h
@@ -34,6 +35,7 @@ armqizhong\main.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h
 armqizhong\main.o: ../Core/Inc/adc.h
 armqizhong\main.o: ../Core/Inc/dma.h
 armqizhong\main.o: ../Core/Inc/i2c.h
+armqizhong\main.o: ../Core/Inc/iwdg.h
 armqizhong\main.o: ../Core/Inc/tim.h
 armqizhong\main.o: ../Core/Inc/usart.h
 armqizhong\main.o: ../Core/Inc/gpio.h
